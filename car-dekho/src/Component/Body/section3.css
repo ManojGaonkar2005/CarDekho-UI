@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.section3{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: "Roboto", Sans-Serif, Arial;
+}
+.section3 .sec2{
+    width: 1260px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid  rgba(0, 0, 0, 0.116);
+    margin-top: 50px;
+    border-radius: 25px;
+    box-shadow: 0 1px 2px rgba(36, 39, 44, .1);
+    margin-bottom: 20px;
+}
+.section3 .sec2-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.116);
+    height: 45px;
+    padding: 15px;
+}
+.section3 .bottom-head{
+    display: flex;
+    flex-direction: row;
+    padding-top: 7px;
+}
+.section3 .car-brand a{
+    margin-right: 60px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding-left: 5px;
+}
+.section3 .car-brand a:hover{
+    border-bottom: 5px solid rgb(255, 89, 0);    
+    font-weight: bold;
+    padding-bottom: 11px;
+}
+.top-contant{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.top-head{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 28px;
+}
+.top-head a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 28px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: text;
+}
+.car-contant img{
+    width: 288px;
+    border-radius: 10px 10px 0px 0px;
+    cursor: pointer;
+}
+.car-contant{
+    width: 288px;
+    height: 343px;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.car-name{
+    padding: 10px;
+    padding-top: 20px;
+}
+.car-name a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.car-price{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.car-price a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    cursor: text;
+}
+.sub-button button{
+    margin: 5px;
+    margin-left: 20px;
+    width: 250px;
+    height: 44px;
+    border-radius: 7px;
+    border: 1px solid rgb(255, 89, 0);
+    color: rgb(255, 89, 0);
+    font-size: 17px;
+    cursor: pointer;
+}
+.a{
+    margin-left: 20px;
+    padding-bottom: 10px;
+    color:rgb(255, 89, 0);
+    font-weight: bold;
+    cursor: pointer;
+}
